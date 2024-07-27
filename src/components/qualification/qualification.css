@@ -97,7 +97,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
   .qualification__sections {
     grid-template-columns: initial;
   }
