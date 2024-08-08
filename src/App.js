@@ -8,19 +8,23 @@ import Work from "./components/work/Work"
 import Testimonials from "./components/testimonials/Testimonials"
 import Contact from "./components/contact/Contact"
 import Footer from "./components/footer/Footer"
+import ScrollUp from "./components/scrollup/ScrollUp"
 
 function App() {
   return (
     <>
       <Header />
-      <Home />
-      <About />
-      <Skills />
-      <Qualification />
-      <Work />
-      <Testimonials />
-      <Contact />
+      <main className="main">
+        <Home />
+        <About />
+        <Skills />
+        <Qualification />
+        <Work />
+        <Testimonials />
+        <Contact />
+      </main>
       <Footer />
+      <ScrollUp />
     </>
   )
 }
