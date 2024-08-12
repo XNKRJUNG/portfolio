@@ -15,7 +15,7 @@ const About = () => {
         <div className="about__data">
           <Info />
 
-          <p className="about__description">Full Stack developer, I create web pages with UI / UX user interface, I have years of experience and many clients are happy with the projects carried out.</p>
+          <p className="about__description">Full Stack developer, I have 5 years of experience. I am looking for a Full-Stack Developer position. </p>
 
           <a download="" href={Resume} className="button button--flex">
             Download Resume

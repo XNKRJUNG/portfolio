@@ -16,7 +16,7 @@ const Header = () => {
     <header className="header">
       <nav className="nav container">
         <a href="index.html" className="nav__logo">
-          Shrestha
+          YShrestha
         </a>
 
         <div className={toogle ? "nav__menu show-menu" : "nav__menu"}>

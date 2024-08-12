@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">Shrestha</h1>
+        <h1 className="footer__title">YShrestha</h1>
         <ul className="footer__list">
           <li>
             <a href="#about" className="footer__link">
@@ -35,12 +35,12 @@ const Footer = () => {
             <i className="uil uil-github-alt"></i>
           </a>
 
-          <a href="https://www.instagram.com/xnkrjungg/" className="footer__social-link" target="_blank">
+          {/* <a href="https://www.instagram.com/xnkrjungg/" className="footer__social-link" target="_blank">
             <i className="uil uil-instagram"></i>
-          </a>
+          </a> */}
         </div>
 
-        <span className="footer__copy">&#169; Cyrus Shrestha. All rights reserved.</span>
+        <span className="footer__copy">&#169; Yogesh Shrestha. All rights reserved.</span>
       </div>
     </footer>
   )
